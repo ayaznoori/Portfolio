@@ -7,7 +7,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
+    <!-- Git Stat css-->
+    <link  rel="stylesheet"  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -108,7 +109,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                    <img class="img-fluid rounded w-100" src="https://www.bacancytechnology.com/blog/wp-content/uploads/2020/01/React-js-developer-min.png" alt="">
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Full Stack Web Developer</h3>
@@ -404,7 +405,7 @@
 
     <!-- Blog Start -->
     <br>
-    <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> 
     <div class="container-fluid pt-5" id="blog">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
@@ -438,6 +439,36 @@
             </div>
         </div>
     </div>
+    <br> <br> <br> <br> 
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Git Stats</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Git Stats</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="position-relative mb-4">
+                        <div><img align="center" src="https://github-readme-stats.vercel.app/api?username=ayaznoori&show_icons=true&locale=en" alt="ayaznoori" /></div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-6 mb-5">
+                    <div class="position-relative mb-4">  
+                        <div><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ayaznoori&" alt="ayaznoori" /></div>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-lg-6 mb-5 calendar">
+                    <div class="position-relative mb-4">
+
+                            Loading the data just for you.
+
+                    </div>
+            </div>
+                 
+            </div>
+        </div>
     <!-- Blog End -->
 
 
@@ -527,6 +558,12 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Git Calender-->
+    <script  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">    </script>
+    <script>
+        new GitHubCalendar(".calendar", "ayaznoori");
+    </script>
 </body>
 
 </html>
